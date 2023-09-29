@@ -1,0 +1,156 @@
+  *{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #f8eaf8;
+  /* background-image: linear-gradient(to bottom right , #e08aef
+, #C2D84C); */
+  background-image: linear-gradient(to bottom right , #4050BF
+, #c258ae);
+  /* margin: 5px; */
+
+
+}
+.frm-create{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 600px;
+    justify-content: center; 
+    margin:20px auto ;
+    border: solid rgb(176, 192, 96) 3px;
+    border-radius: 10px;
+}
+
+.frm-create input, .btn-create{
+    height: 300px;
+    width: 500px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin:8px auto;
+    border: solid rgb(170, 190, 109) 1px;
+   
+}
+
+.btn-create:hover{
+    background-color:#574D3E;
+    color:#d9ec6c
+}
+.btn-create{
+     background-color:#d9ec6c;
+    color:#3a342a ;
+}
+
+
+.frm-show,.show-container{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 700px;
+    justify-content: center; 
+    align-items: center;
+    margin:20px auto ;
+    border: solid rgb(176, 192, 96) 3px;
+    border-radius: 10px;
+}
+
+
+
+label{
+  width: 100px;
+  height: 50px;
+  text-align: right;
+  margin-top: 20px;
+}
+.update-field{
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  width: 600px;
+}
+.update-field input{
+  width: 400px;
+}
+.btn-update, .btn-delete{
+    height: 3rem;
+    width:10rem;
+    font-size: 1rem;
+    color: #c258ae;
+    font-weight: bold;
+    background-color: #d9ec6c;
+    border-radius: 10px;
+}
+.btn-update:hover, .btn-delete:hover{
+    height: 3rem;
+    width:10rem;
+    font-size: 1rem;
+    color: #d9ec6c;
+    font-weight: bold;
+    background-color:#4050BF ;
+}
+.frm-delete{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 700px;
+    justify-content: center; 
+    align-items: center;
+    margin:20px auto ;
+    border: solid rgb(176, 192, 96) 3px;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 850px){
+  .frm-show,.show-container,.frm-delete{
+   
+    height: 500px;
+    width: 500px;
+   
+}
+.update-field{
+  
+  width: 300px;
+}
+label{
+  width: 60px;
+  font-size: 15px;
+}
+.frm-delete{
+    height: 200px;
+    width: 500px;
+}
+
+
+
+
+
+.frm-create{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+    justify-content: center; 
+    margin:20px auto ;
+    border: solid rgb(176, 192, 96) 3px;
+    border-radius: 10px;
+}
+
+.frm-create input, .btn-create{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin:8px auto;
+    border: solid rgb(170, 190, 109) 1px;
+}
+.container-create h2{
+  margin-top: 40px;
+  font-size: 20px;
+}
+}
